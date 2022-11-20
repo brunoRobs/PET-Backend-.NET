@@ -1,0 +1,15 @@
+C:\Users\brono\OneDrive\Documentos\Projects\C#\PrimeiroProjetoPet\PrimeiroProjetoPet\bin\Debug\net6.0\PrimeiroProjetoPet.exe
+C:\Users\brono\OneDrive\Documentos\Projects\C#\PrimeiroProjetoPet\PrimeiroProjetoPet\bin\Debug\net6.0\PrimeiroProjetoPet.deps.json
+C:\Users\brono\OneDrive\Documentos\Projects\C#\PrimeiroProjetoPet\PrimeiroProjetoPet\bin\Debug\net6.0\PrimeiroProjetoPet.runtimeconfig.json
+C:\Users\brono\OneDrive\Documentos\Projects\C#\PrimeiroProjetoPet\PrimeiroProjetoPet\bin\Debug\net6.0\PrimeiroProjetoPet.dll
+C:\Users\brono\OneDrive\Documentos\Projects\C#\PrimeiroProjetoPet\PrimeiroProjetoPet\bin\Debug\net6.0\PrimeiroProjetoPet.pdb
+C:\Users\brono\OneDrive\Documentos\Projects\C#\PrimeiroProjetoPet\PrimeiroProjetoPet\obj\Debug\net6.0\PrimeiroProjetoPet.csproj.AssemblyReference.cache
+C:\Users\brono\OneDrive\Documentos\Projects\C#\PrimeiroProjetoPet\PrimeiroProjetoPet\obj\Debug\net6.0\PrimeiroProjetoPet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brono\OneDrive\Documentos\Projects\C#\PrimeiroProjetoPet\PrimeiroProjetoPet\obj\Debug\net6.0\PrimeiroProjetoPet.AssemblyInfoInputs.cache
+C:\Users\brono\OneDrive\Documentos\Projects\C#\PrimeiroProjetoPet\PrimeiroProjetoPet\obj\Debug\net6.0\PrimeiroProjetoPet.AssemblyInfo.cs
+C:\Users\brono\OneDrive\Documentos\Projects\C#\PrimeiroProjetoPet\PrimeiroProjetoPet\obj\Debug\net6.0\PrimeiroProjetoPet.csproj.CoreCompileInputs.cache
+C:\Users\brono\OneDrive\Documentos\Projects\C#\PrimeiroProjetoPet\PrimeiroProjetoPet\obj\Debug\net6.0\PrimeiroProjetoPet.dll
+C:\Users\brono\OneDrive\Documentos\Projects\C#\PrimeiroProjetoPet\PrimeiroProjetoPet\obj\Debug\net6.0\refint\PrimeiroProjetoPet.dll
+C:\Users\brono\OneDrive\Documentos\Projects\C#\PrimeiroProjetoPet\PrimeiroProjetoPet\obj\Debug\net6.0\PrimeiroProjetoPet.pdb
+C:\Users\brono\OneDrive\Documentos\Projects\C#\PrimeiroProjetoPet\PrimeiroProjetoPet\obj\Debug\net6.0\PrimeiroProjetoPet.genruntimeconfig.cache
+C:\Users\brono\OneDrive\Documentos\Projects\C#\PrimeiroProjetoPet\PrimeiroProjetoPet\obj\Debug\net6.0\ref\PrimeiroProjetoPet.dll
