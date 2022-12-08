@@ -60,15 +60,17 @@ namespace ExtensionList
             return list.Remove(list.GetClient(id));
         }
         
-        public static string Members(this List<Client> list)
-        {
-            string str = "";
-            for (int i = 0; i < list.Count; i++)
-            {
-                str += list[i] + "\n\n"; 
-            }
-            return str;
-        }
+        //Método que utilizei para visualizar lista de forma mais bonita aos olhos
+        //Ler o json nos testes complicava desnecessariamente
+        //public static string Members(this List<Client> list)
+        //{
+        //    string str = "";
+        //    for (int i = 0; i < list.Count; i++)
+        //    {
+        //        str += list[i] + "\n\n"; 
+        //    }
+        //    return str;
+        //}
     }
 }
 
@@ -103,9 +105,9 @@ namespace SegundoProjetoPet.Repositories
             return THEATHER_REGISTER.GetClient(id);
         }
 
-        public string Register()
+        public List<Client> Register()
         {
-            return THEATHER_REGISTER.Members();
+            return THEATHER_REGISTER;
         }
     }
 }
