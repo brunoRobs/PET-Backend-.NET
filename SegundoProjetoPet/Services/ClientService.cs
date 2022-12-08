@@ -17,19 +17,9 @@ namespace SegundoProjetoPet.Services
             return Repository.Add(client);
         }
 
-        public bool Remove(string cpf)
-        {
-            return Repository.Remove(cpf);
-        }
-
         public bool Remove(int id)
         {
             return Repository.Remove(id);
-        }
-
-        public Client? Get(string cpf)
-        {
-            return Repository.Get(cpf);
         }
 
         public Client? Get(int id)
