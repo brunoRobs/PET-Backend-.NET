@@ -22,7 +22,7 @@ namespace SegundoProjetoPet.Services
             return Repository.Remove(cpf);
         }
 
-        public bool Remove(ulong id)
+        public bool Remove(double id)
         {
             return Repository.Remove(id);
         }
@@ -32,7 +32,7 @@ namespace SegundoProjetoPet.Services
             return Repository.Get(cpf);
         }
 
-        public Client? Get(ulong id)
+        public Client? Get(double id)
         {
             return Repository.Get(id);
         }
