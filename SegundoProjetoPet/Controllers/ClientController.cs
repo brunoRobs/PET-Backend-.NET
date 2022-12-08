@@ -32,7 +32,7 @@ namespace SegundoProjetoPet.Controllers
         }
 
         //[HttpDelete("{id}")]
-        //public IActionResult Remove(double id)
+        //public IActionResult Remove(int id)
         //{
         //    if (service.Remove(id))
         //    {
@@ -53,7 +53,7 @@ namespace SegundoProjetoPet.Controllers
         }
 
         //[HttpGet("{id}")]
-        //public IActionResult Get(double id)
+        //public IActionResult Get(int id)
         //{
         //    Client? client = service.Get(id);
         //    if(client == null)
