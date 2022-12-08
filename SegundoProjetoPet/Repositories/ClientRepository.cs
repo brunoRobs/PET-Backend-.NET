@@ -117,9 +117,9 @@ namespace SegundoProjetoPet.Repositories
             return THEATHER_REGISTER.GetClient(id);
         }
 
-        public List<Client> Register()
+        public string Register()
         {
-            return THEATHER_REGISTER;
+            return THEATHER_REGISTER.ToString();
         }
     }
 }
