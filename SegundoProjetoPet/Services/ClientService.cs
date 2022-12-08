@@ -37,7 +37,7 @@ namespace SegundoProjetoPet.Services
             return Repository.Get(id);
         }
 
-        public List<Client> Register()
+        public string Register()
         {
             return Repository.Register();
         }
