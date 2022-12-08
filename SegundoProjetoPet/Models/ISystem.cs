@@ -2,7 +2,7 @@
 {
     public interface ISystem
     {
-        double Id { get; set; }
+        int Id { get; set; }
 
         string Email { get; set; }
     }
