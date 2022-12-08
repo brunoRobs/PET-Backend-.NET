@@ -4,13 +4,15 @@ namespace ExtensionList
 {
     public static class RepositoryList
     {
-        private static ulong GenerateId()
+        private static double GenerateId()
         {
             Random num = new Random();
-            return (ulong)num.NextDouble();
+            double id = num.NextDouble();
+            if (id < 0.0) return -1 * id;
+            return id;
         }
 
-        public static Client? GetClient(this List<Client> list, ulong id)
+        public static Client? GetClient(this List<Client> list, double id)
         {
             foreach (Client client in list)
             {
@@ -28,7 +30,7 @@ namespace ExtensionList
             return null;
         }
 
-        private static bool ContainId(this List<Client> list, ulong id)
+        private static bool ContainId(this List<Client> list, double id)
         {
             foreach (Client client in list)
             {
@@ -52,7 +54,7 @@ namespace ExtensionList
             {
                 return false;
             }
-            ulong newId = GenerateId();
+            double newId = GenerateId();
             while (list.ContainId(newId))
             {
                 newId = GenerateId();
@@ -62,7 +64,7 @@ namespace ExtensionList
             return true;
         }
 
-        public static bool RemClient(this List<Client> list, ulong id)
+        public static bool RemClient(this List<Client> list, double id)
         {
             return list.Remove(list.GetClient(id));
         }
@@ -100,7 +102,7 @@ namespace SegundoProjetoPet.Repositories
             return THEATHER_REGISTER.RemClient(cpf);
         }
 
-        public bool Remove(ulong id)
+        public bool Remove(double id)
         {
             return THEATHER_REGISTER.RemClient(id);
         }
@@ -110,7 +112,7 @@ namespace SegundoProjetoPet.Repositories
             return THEATHER_REGISTER.GetClient(cpf);
         }
 
-        public Client? Get(ulong id) 
+        public Client? Get(double id) 
         {
             return THEATHER_REGISTER.GetClient(id);
         }
