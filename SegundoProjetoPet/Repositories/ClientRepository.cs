@@ -21,15 +21,6 @@ namespace ExtensionList
             return null;
         }
 
-        public static Client? GetClient(this List<Client> list, string cpf)
-        {
-            foreach (Client client in list)
-            {
-                if (client.Cpf == cpf) return client;
-            }
-            return null;
-        }
-
         private static bool ContainId(this List<Client> list, int id)
         {
             foreach (Client client in list)
@@ -68,11 +59,6 @@ namespace ExtensionList
         {
             return list.Remove(list.GetClient(id));
         }
-
-        public static bool RemClient(this List<Client> list, string cpf)
-        {
-            return list.Remove(list.GetClient(cpf));
-        }
         
         public static string Members(this List<Client> list)
         {
@@ -107,19 +93,9 @@ namespace SegundoProjetoPet.Repositories
             return THEATHER_REGISTER.AddClient(client);
         }
 
-        public bool Remove(string cpf)
-        {
-            return THEATHER_REGISTER.RemClient(cpf);
-        }
-
         public bool Remove(int id)
         {
             return THEATHER_REGISTER.RemClient(id);
-        }
-
-        public Client? Get(string cpf) 
-        {
-            return THEATHER_REGISTER.GetClient(cpf);
         }
 
         public Client? Get(int id) 
