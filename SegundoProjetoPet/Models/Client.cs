@@ -2,7 +2,7 @@
 {
     public class Client : Person, ISystem, IAuthenticator
     {
-        public ulong Id { get; set; }
+        public double Id { get; set; }
 
         public string Email { get; set; }
 
