@@ -4,15 +4,15 @@ namespace ExtensionList
 {
     public static class RepositoryList
     {
-        private static double GenerateId()
+        private static int GenerateId()
         {
             Random num = new Random();
-            double id = num.NextDouble();
+            int id = num.Next();
             if (id < 0.0) return -1 * id;
             return id;
         }
 
-        public static Client? GetClient(this List<Client> list, double id)
+        public static Client? GetClient(this List<Client> list, int id)
         {
             foreach (Client client in list)
             {
@@ -30,7 +30,7 @@ namespace ExtensionList
             return null;
         }
 
-        private static bool ContainId(this List<Client> list, double id)
+        private static bool ContainId(this List<Client> list, int id)
         {
             foreach (Client client in list)
             {
@@ -54,7 +54,7 @@ namespace ExtensionList
             {
                 return false;
             }
-            double newId = GenerateId();
+            int newId = GenerateId();
             while (list.ContainId(newId))
             {
                 newId = GenerateId();
@@ -64,7 +64,7 @@ namespace ExtensionList
             return true;
         }
 
-        public static bool RemClient(this List<Client> list, double id)
+        public static bool RemClient(this List<Client> list, int id)
         {
             return list.Remove(list.GetClient(id));
         }
@@ -112,7 +112,7 @@ namespace SegundoProjetoPet.Repositories
             return THEATHER_REGISTER.RemClient(cpf);
         }
 
-        public bool Remove(double id)
+        public bool Remove(int id)
         {
             return THEATHER_REGISTER.RemClient(id);
         }
@@ -122,7 +122,7 @@ namespace SegundoProjetoPet.Repositories
             return THEATHER_REGISTER.GetClient(cpf);
         }
 
-        public Client? Get(double id) 
+        public Client? Get(int id) 
         {
             return THEATHER_REGISTER.GetClient(id);
         }
