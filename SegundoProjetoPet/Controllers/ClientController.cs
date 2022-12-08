@@ -66,7 +66,7 @@ namespace SegundoProjetoPet.Controllers
         [HttpGet]
         public IActionResult Register()
         {
-            return (IActionResult)service.Register();
+            return this.Ok(service.Register());
         }
     }
 }
