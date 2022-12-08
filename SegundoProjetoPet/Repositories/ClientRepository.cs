@@ -73,6 +73,16 @@ namespace ExtensionList
         {
             return list.Remove(list.GetClient(cpf));
         }
+        
+        public static string Members(this List<Client> list)
+        {
+            string str = "";
+            for (int i = 0; i < list.Count; i++)
+            {
+                str += list[i] + "\n"; 
+            }
+            return str;
+        }
     }
 }
 
@@ -119,7 +129,7 @@ namespace SegundoProjetoPet.Repositories
 
         public string Register()
         {
-            return THEATHER_REGISTER.ToString();
+            return THEATHER_REGISTER.Members();
         }
     }
 }
