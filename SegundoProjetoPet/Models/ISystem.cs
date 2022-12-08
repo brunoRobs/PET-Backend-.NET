@@ -2,7 +2,7 @@
 {
     public interface ISystem
     {
-        ulong Id { get; set; }
+        double Id { get; set; }
 
         string Email { get; set; }
     }
