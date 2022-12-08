@@ -79,7 +79,7 @@ namespace ExtensionList
             string str = "";
             for (int i = 0; i < list.Count; i++)
             {
-                str += list[i] + "\n"; 
+                str += list[i] + "\n\n"; 
             }
             return str;
         }
