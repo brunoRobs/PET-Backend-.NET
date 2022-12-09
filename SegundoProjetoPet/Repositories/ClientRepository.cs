@@ -45,6 +45,10 @@ namespace ExtensionList
             {
                 return false;
             }
+            if(client.Cpf.Length > 11) 
+            {
+                return false;
+            }
             int newId = GenerateId();
             while (list.ContainId(newId))
             {
