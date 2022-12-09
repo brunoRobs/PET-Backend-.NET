@@ -12,9 +12,9 @@ namespace SegundoProjetoPet.Controllers
         private static ClientService service = new ClientService(new Repositories.ClientRepository());
 
         [HttpPost]
-        public IActionResult Add(string name, string cpf, string email, string password)
+        public IActionResult Add(Client client)
         {
-            if (service.Add(new Client(name,cpf,email,password)))
+            if (service.Add(client))
             {
                 this.Ok(new Message(10, "Succesfully added!"));
             }
