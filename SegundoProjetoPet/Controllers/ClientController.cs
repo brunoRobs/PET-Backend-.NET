@@ -18,7 +18,7 @@ namespace SegundoProjetoPet.Controllers
             {
                 this.Ok(new Message(10, "Succesfully added!"));
             }
-            return this.Ok(new Message(11, "Client already existent."));
+            return this.Ok(new Message(11, "Client already existent or invalid CPF."));
         }
 
         [HttpDelete("{id}")]
