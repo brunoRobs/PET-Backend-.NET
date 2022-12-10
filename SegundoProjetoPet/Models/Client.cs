@@ -14,12 +14,5 @@
         {
             
         }
-
-        public Client(string name, string cpf, string email)
-        {
-            this.Name = name;
-            this.Cpf = cpf;
-            this.Email = email;
-        }
     }
 }
