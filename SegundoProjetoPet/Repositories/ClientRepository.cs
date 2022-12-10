@@ -77,9 +77,6 @@ namespace SegundoProjetoPet.Repositories
         public ClientRepository()
         {
             THEATHER_REGISTER = new List<Client>();
-            THEATHER_REGISTER.AddClient(new Client("fabio", "11122233344", "fabinho@movie.com"));
-            THEATHER_REGISTER.AddClient(new Client("rafa", "11122233355", "rafinha@movie.com"));
-            THEATHER_REGISTER.AddClient(new Client("conde", "11122233366", "condido@movie.com"));
         }
 
         public bool Add(Client client)
