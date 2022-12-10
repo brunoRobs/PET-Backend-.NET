@@ -45,7 +45,7 @@ namespace ExtensionList
             {
                 return false;
             }
-            if(client.Cpf.Length > 11) 
+            if(client.Cpf.Length != 11) 
             {
                 return false;
             }
@@ -77,9 +77,9 @@ namespace SegundoProjetoPet.Repositories
         public ClientRepository()
         {
             THEATHER_REGISTER = new List<Client>();
-            THEATHER_REGISTER.AddClient(new Client("fabio", "123", "fabinho@movie.com", "13579"));
-            THEATHER_REGISTER.AddClient(new Client("rafa", "456", "rafinha@movie.com", "24680"));
-            THEATHER_REGISTER.AddClient(new Client("conde", "789", "condido@movie.com", "12358"));
+            THEATHER_REGISTER.AddClient(new Client("fabio", "11122233344", "fabinho@movie.com"));
+            THEATHER_REGISTER.AddClient(new Client("rafa", "11122233355", "rafinha@movie.com"));
+            THEATHER_REGISTER.AddClient(new Client("conde", "11122233366", "condido@movie.com"));
         }
 
         public bool Add(Client client)
