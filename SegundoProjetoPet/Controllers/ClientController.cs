@@ -16,7 +16,7 @@ namespace SegundoProjetoPet.Controllers
         {
             if (service.Add(client))
             {
-                this.Ok(new Message(10, "Succesfully added!"));
+                return this.Ok(new Message(10, "Succesfully added!"));
             }
             return this.Ok(new Message(11, "Client already existent or invalid CPF."));
         }
