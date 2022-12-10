@@ -63,18 +63,6 @@ namespace ExtensionList
         {
             return list.Remove(list.GetClient(id));
         }
-        
-        //Método que utilizei para visualizar lista de forma mais bonita aos olhos
-        //Ler o json nos testes complicava desnecessariamente
-        //public static string Members(this List<Client> list)
-        //{
-        //    string str = "";
-        //    for (int i = 0; i < list.Count; i++)
-        //    {
-        //        str += list[i] + "\n\n"; 
-        //    }
-        //    return str;
-        //}
     }
 }
 
