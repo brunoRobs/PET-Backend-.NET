@@ -29,3 +29,10 @@ C:\Users\brono\OneDrive\Documentos\Projects\C#\SegundoProjetoPet\SegundoProjetoP
 C:\Users\brono\OneDrive\Documentos\Projects\C#\SegundoProjetoPet\SegundoProjetoPet\obj\Debug\net6.0\SegundoProjetoPet.pdb
 C:\Users\brono\OneDrive\Documentos\Projects\C#\SegundoProjetoPet\SegundoProjetoPet\obj\Debug\net6.0\SegundoProjetoPet.genruntimeconfig.cache
 C:\Users\brono\OneDrive\Documentos\Projects\C#\SegundoProjetoPet\SegundoProjetoPet\obj\Debug\net6.0\ref\SegundoProjetoPet.dll
+C:\Users\brono\OneDrive\Documentos\Projects\C#\SegundoProjetoPet\SegundoProjetoPet\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\brono\OneDrive\Documentos\Projects\C#\SegundoProjetoPet\SegundoProjetoPet\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\brono\OneDrive\Documentos\Projects\C#\SegundoProjetoPet\SegundoProjetoPet\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\brono\OneDrive\Documentos\Projects\C#\SegundoProjetoPet\SegundoProjetoPet\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\brono\OneDrive\Documentos\Projects\C#\SegundoProjetoPet\SegundoProjetoPet\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\brono\OneDrive\Documentos\Projects\C#\SegundoProjetoPet\SegundoProjetoPet\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\brono\OneDrive\Documentos\Projects\C#\SegundoProjetoPet\SegundoProjetoPet\obj\Debug\net6.0\SegundoProjetoPet.csproj.CopyComplete
