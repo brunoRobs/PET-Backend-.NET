@@ -2,5 +2,5 @@
 
 namespace SegundoProjetoPet.Repositories
 {
-    public class ClientRepository : Repository<Client> { }
+    public class ManagerRepository : Repository<Manager> { }
 }
