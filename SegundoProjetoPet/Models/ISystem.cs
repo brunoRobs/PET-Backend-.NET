@@ -4,6 +4,6 @@
     {
         int Id { get; set; }
 
-        string Email { get; set; }
+        string? Email { get; set; }
     }
 }

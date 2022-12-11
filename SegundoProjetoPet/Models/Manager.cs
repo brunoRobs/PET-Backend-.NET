@@ -2,10 +2,10 @@
 
 namespace SegundoProjetoPet.Models
 {
-    public class Client : Person
+    public class Manager : Person
     {
         [JsonConstructor]
-        public Client(string name, string cpf, string email)
+        public Manager(string name, string cpf, string email)
         {
             this.Name = name;
             this.Cpf = cpf;
