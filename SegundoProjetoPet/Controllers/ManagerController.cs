@@ -5,13 +5,13 @@ using SegundoProjetoPet.Services;
 
 namespace SegundoProjetoPet.Controllers
 {
-    [Route("api/clients")]
+    [Route("api/managers")]
     [ApiController]
-    public class ClientController : Controller<Client, ClientRepository, ClientService>
+    public class ManagerController : Controller<Manager, ManagerRepository, ManagerService>
     {
-        public ClientController() : base()
+        public ManagerController() : base()
         {
-            this.Service = new ClientService(new ClientRepository());
+            this.Service = new ManagerService(new ManagerRepository());
         }
     }
 }
